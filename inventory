@@ -1,5 +1,5 @@
-[Ubuntu-Server]
+[Ubuntu_Server]
 server1 ansible_host=192.168.56.108
 
-[CentOS-Server]
+[CentOS_Server]
 centos ansible_host=192.168.56.114 ansible_user=centos
