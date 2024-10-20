@@ -1,0 +1,5 @@
+[Ubuntu-Server]
+server1 ansible_host=192.168.56.108
+
+[CentOS-Server]
+centos ansible_host=192.168.56.114 ansible_user=centos apache_package=httpd php_package=php
