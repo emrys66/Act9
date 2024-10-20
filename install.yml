@@ -1,0 +1,9 @@
+- hosts: Ubuntu-Server
+  become: true
+  roles:
+    - Ubuntu-Server
+
+- hosts: CentOS-Server
+  become: true
+  roles:
+    - CentOS-Server
